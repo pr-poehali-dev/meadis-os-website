@@ -61,7 +61,18 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				aero: {
+					blue: '#00A6FF',
+					green: '#7FD957',
+					yellow: '#FFB900',
+					light: '#E8F5FF'
 				}
+			},
+			backgroundImage: {
+				'aero-gradient': 'linear-gradient(135deg, #00A6FF 0%, #7FD957 50%, #FFB900 100%)',
+				'aero-shine': 'linear-gradient(to bottom, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 100%)',
+				'glass': 'linear-gradient(135deg, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0.1) 100%)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
