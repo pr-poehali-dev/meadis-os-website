@@ -178,9 +178,12 @@ const Index = () => {
               size="lg"
               className="backdrop-blur-md bg-white/70 border-white/60 shadow-lg hover:shadow-xl transition-all text-foreground rounded-2xl px-6"
               variant="outline"
+              asChild
             >
-              <Icon name="Send" size={20} className="mr-2" />
-              Telegram
+              <a href="https://t.me/MeadisOS" target="_blank" rel="noopener noreferrer">
+                <Icon name="Send" size={20} className="mr-2" />
+                Telegram
+              </a>
             </Button>
           </div>
         </div>
