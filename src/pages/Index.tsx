@@ -140,7 +140,7 @@ const Index = () => {
                     <div className="absolute inset-0 bg-gradient-to-b from-white/30 to-transparent"></div>
                     <span className="relative z-10 flex items-center gap-2">
                       <Icon name="Download" size={18} />
-                      Windows
+                      Загрузить систему
                     </span>
                   </Button>
                 </div>
