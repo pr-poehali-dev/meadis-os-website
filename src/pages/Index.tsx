@@ -59,16 +59,6 @@ const Index = () => {
                 Скачать сейчас
               </span>
             </Button>
-            <Button 
-              size="lg" 
-              variant="outline"
-              className="backdrop-blur-md bg-white/60 border-white/60 shadow-lg hover:shadow-xl transition-all px-8 py-6 text-lg rounded-2xl"
-            >
-              <span className="flex items-center gap-2">
-                <Icon name="PlayCircle" size={20} />
-                Смотреть видео
-              </span>
-            </Button>
           </div>
         </div>
       </section>
