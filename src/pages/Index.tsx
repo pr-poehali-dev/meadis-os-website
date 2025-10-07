@@ -143,13 +143,6 @@ const Index = () => {
                       Windows
                     </span>
                   </Button>
-                  <Button className="bg-gradient-to-r from-aero-yellow to-aero-blue text-white shadow-lg hover:shadow-xl transition-all relative overflow-hidden group rounded-xl">
-                    <div className="absolute inset-0 bg-gradient-to-b from-white/30 to-transparent"></div>
-                    <span className="relative z-10 flex items-center gap-2">
-                      <Icon name="Download" size={18} />
-                      Linux
-                    </span>
-                  </Button>
                 </div>
               </div>
             </div>
