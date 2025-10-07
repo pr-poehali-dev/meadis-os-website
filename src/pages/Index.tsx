@@ -134,7 +134,7 @@ const Index = () => {
               
               <div className="flex-grow">
                 <h3 className="text-2xl font-bold mb-2">Meadis OS v1.0</h3>
-                <p className="text-foreground/70 mb-4">Последняя стабильная версия для Windows, Mac и Linux</p>
+                <p className="text-foreground/70 mb-4">Последняя стабильная версия для Windows</p>
                 <div className="flex gap-3">
                   <Button className="bg-gradient-to-r from-aero-blue to-aero-green text-white shadow-lg hover:shadow-xl transition-all relative overflow-hidden group rounded-xl">
                     <div className="absolute inset-0 bg-gradient-to-b from-white/30 to-transparent"></div>
