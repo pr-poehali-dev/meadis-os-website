@@ -136,7 +136,10 @@ const Index = () => {
                 <h3 className="text-2xl font-bold mb-2">Meadis OS v1.3</h3>
                 <p className="text-foreground/70 mb-4">Последняя стабильная версия для Windows</p>
                 <div className="flex gap-3">
-                  <Button className="bg-gradient-to-r from-aero-blue to-aero-green text-white shadow-lg hover:shadow-xl transition-all relative overflow-hidden group rounded-xl">
+                  <Button 
+                    className="bg-gradient-to-r from-aero-blue to-aero-green text-white shadow-lg hover:shadow-xl transition-all relative overflow-hidden group rounded-xl"
+                    onClick={() => window.open('https://drive.google.com/file/d/1xydNnDU5HOEpoq_eb-NgXtbMCZ_0aPOU/view?usp=sharing', '_blank')}
+                  >
                     <div className="absolute inset-0 bg-gradient-to-b from-white/30 to-transparent"></div>
                     <span className="relative z-10 flex items-center gap-2">
                       <Icon name="Download" size={18} />
