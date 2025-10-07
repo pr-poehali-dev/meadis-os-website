@@ -191,7 +191,7 @@ const Index = () => {
 
       <footer className="py-10 px-6 backdrop-blur-md bg-white/60 border-t border-white/40">
         <div className="max-w-6xl mx-auto text-center text-foreground/70">
-          <p>© 2024 Meadis OS. Все права защищены.</p>
+          <p>© 2025 Meadis OS. Все права защищены.</p>
         </div>
       </footer>
     </div>
