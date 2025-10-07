@@ -195,14 +195,6 @@ const Index = () => {
               className="backdrop-blur-md bg-white/70 border-white/60 shadow-lg hover:shadow-xl transition-all text-foreground rounded-2xl px-6"
               variant="outline"
             >
-              <Icon name="Twitter" size={20} className="mr-2" />
-              Twitter
-            </Button>
-            <Button 
-              size="lg"
-              className="backdrop-blur-md bg-white/70 border-white/60 shadow-lg hover:shadow-xl transition-all text-foreground rounded-2xl px-6"
-              variant="outline"
-            >
               <Icon name="Send" size={20} className="mr-2" />
               Telegram
             </Button>
